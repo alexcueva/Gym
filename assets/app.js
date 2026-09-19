@@ -45,6 +45,7 @@
   function setAccent(profileKey) {
     const p = PROFILES[profileKey];
     const root = document.documentElement;
+    document.body.classList.toggle("theme-mujer", profileKey === "mujer");
     if (!p) {
       root.style.removeProperty("--accent");
       root.style.removeProperty("--accent-soft");
