@@ -26,16 +26,9 @@
     },
   };
 
-  function safeGet(key) {
-    try { return localStorage.getItem(key); } catch (e) { return null; }
-  }
-  function safeSet(key, val) {
-    try { localStorage.setItem(key, val); } catch (e) { /* noop */ }
-  }
-
   const state = {
     screen: "profile", // profile | category | routine
-    profile: safeGet("rg_profile") || null,
+    profile: null,
     category: null,
   };
 
@@ -92,7 +85,6 @@
     `;
     Object.values(PROFILES).forEach((p) => {
       document.getElementById(`profile-${p.key}`).addEventListener("click", () => {
-        safeSet("rg_profile", p.key);
         go("category", { profile: p.key });
       });
     });
@@ -264,9 +256,6 @@
   });
 
   // ---------------- Boot ----------------
-  if (state.profile) {
-    go("category");
-  } else {
-    render();
-  }
+  // Siempre inicia en la pantalla de selección de perfil.
+  render();
 })();
