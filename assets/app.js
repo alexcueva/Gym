@@ -6,7 +6,7 @@
   const PROFILES = {
     mujer: {
       key: "mujer",
-      name: "Lluvia",
+      name: "Ella",
       icon: "🙋‍♀️",
       accentVar: "--accent-mujer",
       accentSoftVar: "--accent-mujer-soft",
@@ -15,7 +15,7 @@
     },
     hombre: {
       key: "hombre",
-      name: "Alex",
+      name: "Él",
       icon: "🙋‍♂️",
       accentVar: "--accent-hombre",
       accentSoftVar: "--accent-hombre-soft",
