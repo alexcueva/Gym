@@ -15,7 +15,7 @@
     },
     hombre: {
       key: "hombre",
-      name: "Él",
+      name: "Alex",
       icon: "🙋‍♂️",
       accentVar: "--accent-hombre",
       accentSoftVar: "--accent-hombre-soft",
