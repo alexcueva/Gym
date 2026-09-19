@@ -40,6 +40,10 @@ body.theme-mujer{
   --text-dim: #b7c5ab;
   --text-faint: #82906f;
   --shadow: 0 8px 24px rgba(0,0,0,.45);
+  /* Acento cálido complementario (terracota + crema) para botones y detalles. */
+  --warm: #AD361F;
+  --warm-soft: rgba(173,54,31,.16);
+  --warm-ink: #FFE8B2;
 }
 
 *{box-sizing:border-box;}
@@ -57,7 +61,12 @@ h1,h2,h3, .display{
   font-family: 'Manrope', 'Inter', sans-serif;
   letter-spacing: -0.01em;
 }
-button{font-family: inherit;}
+button{
+  font-family: inherit;
+  color: inherit;
+  -webkit-appearance: none;
+  appearance: none;
+}
 a{color: inherit;}
 
 .app{
@@ -191,6 +200,7 @@ a{color: inherit;}
 .profile-card__body{ position:relative; z-index:1; min-width:0; flex:1;}
 .profile-card__name{
   font-size: 18px; font-weight: 800; margin: 0 0 3px;
+  color: var(--text);
 }
 .profile-card__meta{
   font-size: 13px; color: var(--text-dim); margin:0;
@@ -260,6 +270,7 @@ a{color: inherit;}
   font-size: 16px;
   font-weight: 800;
   position:relative; z-index:1;
+  color: var(--text);
 }
 .cat-card__count{
   font-size: 12.5px;
@@ -343,6 +354,7 @@ a{color: inherit;}
   font-weight: 700;
   line-height: 1.25;
   margin:0;
+  color: var(--text);
 }
 .ex-card__note{
   font-size: 12px;
@@ -472,4 +484,14 @@ a{color: inherit;}
 
 @media (min-width: 420px){
   .ex-card__media{ width: 96px; height: 96px; }
+}
+
+/* ---------- Acento cálido (terracota/crema) para el perfil de Lluvia ---------- */
+body.theme-mujer .btn--video{
+  background: var(--warm);
+  color: var(--warm-ink);
+}
+body.theme-mujer .pill{
+  background: var(--warm);
+  color: var(--warm-ink);
 }
