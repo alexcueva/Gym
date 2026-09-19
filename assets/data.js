@@ -78,7 +78,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 10-12 Repeticiones",
         "image": "assets/img/fullbody-peso-muerto-con-barra-olimpica.jpeg",
-        "wikiUrl": "https://musclewiki.com/barbell/female/traps-middle/barbell-deadlift/",
+        "wikiUrl": "https://musclewiki.com/exercise/barbell-deadlift",
         "videos": [
           {
             "id": "5rIqP63yWFg",
@@ -96,7 +96,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 10-12 Repeticiones",
         "image": "assets/img/fullbody-extension-de-cadera-de-45.jpeg",
-        "wikiUrl": "https://musclewiki.com/machine/female/lowerback/machine-45-degree-back-extension/",
+        "wikiUrl": "https://musclewiki.com/exercise/machine-45-degree-back-extension",
         "videos": [
           {
             "id": "hOrVNdnv84E",
@@ -132,7 +132,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 10-12 Repeticiones",
         "image": "assets/img/fullbody-dumbell-seated-overhead-press.jpeg",
-        "wikiUrl": "https://musclewiki.com/dumbbells/female/shoulders/dumbbell-seated-overhead-press/",
+        "wikiUrl": "https://musclewiki.com/exercise/dumbbell-seated-overhead-press",
         "videos": [
           {
             "id": "k6tzKisR3NY",
@@ -150,7 +150,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 10-12 Repeticiones",
         "image": "assets/img/fullbody-elevacion-de-rodillaspiernas-vertical.jpeg",
-        "wikiUrl": "https://musclewiki.com/bodyweight/female/abdominals/hanging-knee-raises/",
+        "wikiUrl": "https://musclewiki.com/exercise/hanging-knee-raises",
         "videos": [
           {
             "id": "UqmbxvOgnX4",
@@ -168,7 +168,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 24 Repeticiones (12 por lado)",
         "image": "assets/img/fullbody-rotacion-de-abdomen-con-mancuerna.jpeg",
-        "wikiUrl": "https://musclewiki.com/dumbbells/female/abdominals/dumbbell-russian-twist/",
+        "wikiUrl": "https://musclewiki.com/exercise/dumbbell-russian-twist",
         "videos": [
           {
             "id": "C3RauLi8FNw",
@@ -192,7 +192,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 10-12 Repeticiones",
         "image": "assets/img/pecho-barbell-bench-press.jpeg",
-        "wikiUrl": "https://musclewiki.com/barbell/female/chest/barbell-bench-press/",
+        "wikiUrl": "https://musclewiki.com/exercise/barbell-bench-press",
         "videos": [
           {
             "id": "hWbUlkb5Ms4",
@@ -210,7 +210,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 10-12 Repeticiones",
         "image": "assets/img/pecho-machine-pec-fly.jpeg",
-        "wikiUrl": "https://musclewiki.com/machine/female/chest/machine-pec-fly/",
+        "wikiUrl": "https://musclewiki.com/exercise/machine-pec-fly",
         "videos": [
           {
             "id": "g3T7LsEeDWQ",
@@ -232,7 +232,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 10-12 Repeticiones",
         "image": "assets/img/pecho-empuje-en-prensa-inclinada.gif",
-        "wikiUrl": "https://musclewiki.com/machine/female/triceps/machine-plate-loaded-decline-chest-press/",
+        "wikiUrl": "https://musclewiki.com/exercise/machine-plate-loaded-decline-chest-press",
         "videos": [
           {
             "id": "o0Ud3RU59hw",
@@ -250,7 +250,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 10-12 Repeticiones",
         "image": "assets/img/pecho-fondos-con-maquina.jpeg",
-        "wikiUrl": "https://musclewiki.com/machine/female/triceps/machine-dips/",
+        "wikiUrl": "https://musclewiki.com/exercise/machine-dips",
         "videos": [
           {
             "id": "08pJgqNRAl0",
@@ -268,7 +268,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 10-12 Repeticiones",
         "image": "assets/img/pecho-curl-con-mancuernas.jpeg",
-        "wikiUrl": "https://musclewiki.com/dumbbells/female/biceps/dumbbell-curl/",
+        "wikiUrl": "https://musclewiki.com/exercise/dumbbell-curl",
         "videos": [
           {
             "id": "MKWBV29S6c0",
@@ -290,7 +290,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 10-12 Repeticiones",
         "image": "assets/img/pecho-dumbell-seated-overhead-press-2.jpeg",
-        "wikiUrl": "https://musclewiki.com/dumbbells/female/shoulders/dumbbell-seated-overhead-press/",
+        "wikiUrl": "https://musclewiki.com/exercise/dumbbell-seated-overhead-press",
         "videos": [
           {
             "id": "k6tzKisR3NY",
@@ -308,7 +308,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 10-12 Repeticiones",
         "image": "assets/img/pecho-elevacion-de-rodillas-vertical.jpeg",
-        "wikiUrl": "https://musclewiki.com/bodyweight/female/abdominals/hanging-knee-raises/",
+        "wikiUrl": "https://musclewiki.com/exercise/hanging-knee-raises",
         "videos": [
           {
             "id": "UqmbxvOgnX4",
@@ -328,7 +328,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 10-12 Repeticiones",
         "image": "assets/img/espalda-barbell-bent-over-row-2.jpeg",
-        "wikiUrl": "https://musclewiki.com/barbell/female/biceps/barbell-bent-over-row/",
+        "wikiUrl": "https://musclewiki.com/exercise/barbell-bent-over-row",
         "videos": [
           {
             "id": "Nqh7q3zDCoQ",
@@ -346,7 +346,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 15-20 Repeticiones",
         "image": "assets/img/espalda-machine-plate-loaded-pulldown.jpeg",
-        "wikiUrl": "https://musclewiki.com/machine/female/biceps/machine-plate-loaded-pulldown/",
+        "wikiUrl": "https://musclewiki.com/exercise/machine-plate-loaded-pulldown",
         "videos": [
           {
             "id": "VsKaPtJfOkY",
@@ -364,7 +364,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 10-12 Repeticiones",
         "image": "assets/img/espalda-extension-de-cadera-de-45-2.jpeg",
-        "wikiUrl": "https://musclewiki.com/machine/female/lowerback/machine-45-degree-back-extension/",
+        "wikiUrl": "https://musclewiki.com/exercise/machine-45-degree-back-extension",
         "videos": [
           {
             "id": "hOrVNdnv84E",
@@ -386,7 +386,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 10-12 Repeticiones",
         "image": "assets/img/espalda-remo-sentado-en-maquina-con-cable.png",
-        "wikiUrl": "https://musclewiki.com/machine/female/biceps/machine-seated-cable-row/",
+        "wikiUrl": "https://musclewiki.com/exercise/machine-seated-cable-row",
         "videos": [
           {
             "id": "vwHG9Jfu4sw",
@@ -426,7 +426,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 10-12 Repeticiones",
         "image": "assets/img/espalda-jalon-inclinado-con-cable.jpeg",
-        "wikiUrl": "https://musclewiki.com/cables/female/lats/cable-bent-over-bar-pullover/",
+        "wikiUrl": "https://musclewiki.com/exercise/cable-bent-over-bar-pullover",
         "videos": [
           {
             "id": "32auHIqgEoM",
@@ -444,7 +444,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 15 Repeticiones por lado",
         "image": "assets/img/espalda-lenador-de-rodillas-con-mancuerna.jpeg",
-        "wikiUrl": "https://musclewiki.com/dumbbells/female/abdominals/dumbbell-half-kneeling-wood-chopper/",
+        "wikiUrl": "https://musclewiki.com/exercise/dumbbell-half-kneeling-wood-chopper",
         "videos": [
           {
             "id": "qH9zfcN_xh4",
@@ -472,7 +472,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 10-12 Repeticiones",
         "image": "assets/img/brazo-dumbell-press-bench.jpeg",
-        "wikiUrl": "https://musclewiki.com/dumbbells/female/triceps/dumbbell-bench-press/",
+        "wikiUrl": "https://musclewiki.com/exercise/dumbbell-bench-press",
         "videos": [
           {
             "id": "KjYak5vZO9s",
@@ -494,7 +494,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 10-12 Repeticiones",
         "image": "assets/img/brazo-dumbell-curl.jpeg",
-        "wikiUrl": "https://musclewiki.com/dumbbells/female/biceps/dumbbell-curl/",
+        "wikiUrl": "https://musclewiki.com/exercise/dumbbell-curl",
         "videos": [
           {
             "id": "MKWBV29S6c0",
@@ -516,7 +516,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 10-12 Repeticiones",
         "image": "assets/img/brazo-cable-rope-pushdown.jpeg",
-        "wikiUrl": "https://musclewiki.com/cables/female/triceps/cable-rope-pushdown/",
+        "wikiUrl": "https://musclewiki.com/exercise/cable-rope-pushdown",
         "videos": [
           {
             "id": "vB5OHsJ3EME",
@@ -534,7 +534,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 10-12 Repeticiones",
         "image": "assets/img/brazo-cable-rope-hammer-curl.jpeg",
-        "wikiUrl": "https://musclewiki.com/cables/female/biceps/cable-rope-hammer-curl/",
+        "wikiUrl": "https://musclewiki.com/exercise/cable-rope-hammer-curl",
         "videos": [
           {
             "id": "iOwrtesXiDw",
@@ -556,7 +556,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 10-12 Repeticiones",
         "image": "assets/img/brazo-fondos-con-maquina-2.jpeg",
-        "wikiUrl": "https://musclewiki.com/machine/female/triceps/machine-dips/",
+        "wikiUrl": "https://musclewiki.com/exercise/machine-dips",
         "videos": [
           {
             "id": "08pJgqNRAl0",
@@ -576,7 +576,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 15-20 Repeticiones",
         "image": "assets/img/abdomen-crunches.jpeg",
-        "wikiUrl": "https://musclewiki.com/bodyweight/female/abdominals/crunches/",
+        "wikiUrl": "https://musclewiki.com/exercise/crunches",
         "videos": [
           {
             "id": "eeJ_CYqSoT4",
@@ -594,7 +594,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 10-12 Repeticiones",
         "image": "assets/img/abdomen-elevacion-de-rodillas-vertical-2.jpeg",
-        "wikiUrl": "https://musclewiki.com/bodyweight/female/abdominals/hanging-knee-raises/",
+        "wikiUrl": "https://musclewiki.com/exercise/hanging-knee-raises",
         "videos": [
           {
             "id": "UqmbxvOgnX4",
@@ -612,7 +612,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 24 Repeticiones (12 por lado)",
         "image": "assets/img/abdomen-rotacion-de-abdomen-con-mancuerna-2.jpeg",
-        "wikiUrl": "https://musclewiki.com/dumbbells/female/abdominals/dumbbell-russian-twist/",
+        "wikiUrl": "https://musclewiki.com/exercise/dumbbell-russian-twist",
         "videos": [
           {
             "id": "C3RauLi8FNw",
@@ -634,7 +634,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 15 Repeticiones por lado",
         "image": "assets/img/abdomen-lenador-de-rodillas-con-mancuerna-2.jpeg",
-        "wikiUrl": "https://musclewiki.com/dumbbells/female/abdominals/dumbbell-half-kneeling-wood-chopper/",
+        "wikiUrl": "https://musclewiki.com/exercise/dumbbell-half-kneeling-wood-chopper",
         "videos": [
           {
             "id": "qH9zfcN_xh4",
@@ -660,7 +660,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 10-12 Repeticiones por lado",
         "image": "assets/img/abdomen-plancha-con-mancuernas.jpeg",
-        "wikiUrl": "https://musclewiki.com/dumbbells/female/abdominals/dumbbell-plank-pullthrough/",
+        "wikiUrl": "https://musclewiki.com/exercise/dumbbell-plank-pullthrough",
         "videos": [
           {
             "id": "Zko5x2SoQmo",
@@ -682,7 +682,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 15-20 Repeticiones",
         "image": "assets/img/abdomen-levantamiento-con-mancuerna.jpeg",
-        "wikiUrl": "https://musclewiki.com/dumbbells/female/abdominals/dumbbell-situp/",
+        "wikiUrl": "https://musclewiki.com/exercise/dumbbell-situp",
         "videos": [
           {
             "id": "nAaLDMzlAMQ",
@@ -700,7 +700,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 15 Repeticiones por lado",
         "image": "assets/img/abdomen-lenador-con-maquina-parada.jpeg",
-        "wikiUrl": "https://musclewiki.com/cables/female/obliques/cable-wood-chopper/",
+        "wikiUrl": "https://musclewiki.com/exercise/cable-wood-chopper",
         "videos": [
           {
             "id": "YIU0U_B57rU",
@@ -720,7 +720,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 10-12 Repeticiones",
         "image": "assets/img/pierna-sentadillas-con-barra-olimpica-cuadriceps-gluteos-y-femorale.jpeg",
-        "wikiUrl": "https://musclewiki.com/barbell/female/glutes/barbell-squat/",
+        "wikiUrl": "https://musclewiki.com/exercise/barbell-squat",
         "videos": [
           {
             "id": "MLoZuAkIyZI",
@@ -742,7 +742,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 10-12 Repeticiones",
         "image": "assets/img/pierna-peso-muerto-con-barra-olimpica-isquiotibiales-gluteos-y-espa.jpeg",
-        "wikiUrl": "https://musclewiki.com/barbell/female/traps-middle/barbell-deadlift/",
+        "wikiUrl": "https://musclewiki.com/exercise/barbell-deadlift",
         "videos": [
           {
             "id": "5rIqP63yWFg",
@@ -760,7 +760,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 10-12 Repeticiones",
         "image": "assets/img/pierna-puente-de-cadera-con-maquina-gluteos.jpeg",
-        "wikiUrl": "https://musclewiki.com/machine/female/glutes/machine-plate-loaded-hip-thrust/",
+        "wikiUrl": "https://musclewiki.com/exercise/machine-plate-loaded-hip-thrust",
         "videos": [
           {
             "id": "cbAVCZ1cZzs",
@@ -782,7 +782,7 @@ const ROUTINE_DATA = {
         "note": "gluteos e cuadriceps",
         "seriesReps": "3-4 Series · 10-12 Repeticiones",
         "image": "assets/img/pierna-sentadilla-bulgara.jpeg",
-        "wikiUrl": "https://musclewiki.com/dumbbells/female/glutes/dumbbell-bulgarian-split-squat/",
+        "wikiUrl": "https://musclewiki.com/exercise/dumbbell-bulgarian-split-squat",
         "videos": [
           {
             "id": "SkNsa3eBwLA",
@@ -816,7 +816,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 10-12 Repeticiones",
         "image": "assets/img/pierna-prensa-de-pierna-en-maquina-gluteos-y-cuadriceps.jpeg",
-        "wikiUrl": "https://musclewiki.com/machine/female/glutes/machine-leg-press/",
+        "wikiUrl": "https://musclewiki.com/exercise/machine-leg-press",
         "videos": [
           {
             "id": "nDh_BlnLCGc",
@@ -882,7 +882,7 @@ const ROUTINE_DATA = {
         "note": null,
         "seriesReps": "3-4 Series · 10-12 Repeticiones",
         "image": "assets/img/pierna-extension-de-cadera-de-45-gluteos-e-isquiotibiales.jpeg",
-        "wikiUrl": "https://musclewiki.com/machine/female/lowerback/machine-45-degree-back-extension/",
+        "wikiUrl": "https://musclewiki.com/exercise/machine-45-degree-back-extension",
         "videos": [
           {
             "id": "GFqfIInCuUQ",
