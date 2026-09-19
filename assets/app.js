@@ -6,19 +6,21 @@
   const PROFILES = {
     mujer: {
       key: "mujer",
-      name: "Ella",
+      name: "Lluvia",
       icon: "🙋‍♀️",
       accentVar: "--accent-mujer",
       accentSoftVar: "--accent-mujer-soft",
+      accentInkVar: "--accent-ink-mujer",
       gymName: "Planet Fitness",
       gymLocation: "Corvallis, Oregon · EE. UU.",
     },
     hombre: {
       key: "hombre",
-      name: "Él",
+      name: "Alex",
       icon: "🙋‍♂️",
       accentVar: "--accent-hombre",
       accentSoftVar: "--accent-hombre-soft",
+      accentInkVar: "--accent-ink-hombre",
       gymName: "Su gimnasio",
       gymLocation: "Pendiente de confirmar",
     },
@@ -53,10 +55,12 @@
     if (!p) {
       root.style.removeProperty("--accent");
       root.style.removeProperty("--accent-soft");
+      root.style.removeProperty("--accent-ink");
       return;
     }
     root.style.setProperty("--accent", `var(${p.accentVar})`);
     root.style.setProperty("--accent-soft", `var(${p.accentSoftVar})`);
+    root.style.setProperty("--accent-ink", `var(${p.accentInkVar})`);
   }
 
   function go(screen, extra) {
