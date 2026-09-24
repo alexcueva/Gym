@@ -39,9 +39,9 @@ const ROUTINE_DATA = {
     },
     {
       "key": "bandas",
-      "label": "Bandas elásticas",
+      "label": "Ejercicios Bandas",
       "emoji": "🎗️",
-      "count": 8
+      "count": 20
     }
   ],
   "exercises": {
@@ -905,143 +905,320 @@ const ROUTINE_DATA = {
         ]
       }
     ],
-    "bandas": [
-      {
-        "id": "bandas-band-pushup",
-        "name": "Band Pushup",
-        "note": "Pecho",
-        "seriesReps": "3-4 Series · 10-12 Repeticiones",
-        "image": null,
-        "wikiUrl": "https://musclewiki.com/exercise/band-pushup",
-        "videos": [
+    "bandas": {
+      "tabs": [
+        {
+          "key": "piernas",
+          "label": "Piernas / Glúteo"
+        },
+        {
+          "key": "espalda",
+          "label": "Espalda"
+        },
+        {
+          "key": "hombro",
+          "label": "Hombro"
+        },
+        {
+          "key": "abdomen",
+          "label": "Abdomen"
+        },
+        {
+          "key": "cuerpocompleto",
+          "label": "Cuerpo completo"
+        }
+      ],
+      "byTab": {
+        "piernas": [
           {
-            "id": "Hzhyjhq9tQo",
-            "url": "https://www.youtube.com/watch?v=Hzhyjhq9tQo"
-          }
-        ]
-      },
-      {
-        "id": "bandas-band-pull-apart",
-        "name": "Band Pull Apart",
-        "note": "Hombro / espalda alta",
-        "seriesReps": "3-4 Series · 15-20 Repeticiones",
-        "image": null,
-        "wikiUrl": "https://musclewiki.com/exercise/band-pull-apart",
-        "videos": [
-          {
-            "id": "bYsgk9SrJ48",
-            "url": "https://www.youtube.com/watch?v=bYsgk9SrJ48"
-          }
-        ]
-      },
-      {
-        "id": "bandas-machine-seated-cable-row",
-        "name": "Machine seated cable row",
-        "note": "Espalda",
-        "seriesReps": "3-4 Series · 10-12 Repeticiones",
-        "image": "assets/img/espalda-remo-sentado-en-maquina-con-cable.png",
-        "wikiUrl": "https://musclewiki.com/exercise/machine-seated-cable-row",
-        "videos": [
-          {
-            "id": "vwHG9Jfu4sw",
-            "url": "https://www.youtube.com/watch?v=vwHG9Jfu4sw&ab_channel=MaxEuceda"
+            "id": "bandas-piernas-in-out-squat",
+            "name": "In + Out Squat (mini banda)",
+            "note": "Cuádriceps / Glúteo",
+            "seriesReps": "3-4 Series · 12-15 Repeticiones",
+            "image": null,
+            "wikiUrl": null,
+            "videos": [
+              {
+                "id": "nUj_3qRJVvw",
+                "url": "https://www.youtube.com/watch?v=nUj_3qRJVvw"
+              }
+            ]
           },
           {
-            "id": "qD1WZ5pSuvk",
-            "url": "https://youtube.com/shorts/qD1WZ5pSuvk?si=0ScnOChPej38XrPF"
-          }
-        ]
-      },
-      {
-        "id": "bandas-dumbbell-curl",
-        "name": "Dumbell curl",
-        "note": "Bíceps",
-        "seriesReps": "3-4 Series · 10-12 Repeticiones",
-        "image": "assets/img/brazo-dumbell-curl.jpeg",
-        "wikiUrl": "https://musclewiki.com/exercise/dumbbell-curl",
-        "videos": [
-          {
-            "id": "MKWBV29S6c0",
-            "url": "https://youtube.com/shorts/MKWBV29S6c0?si=MY0z-wOXfNaHcDG0"
+            "id": "bandas-piernas-butterfly-bridge",
+            "name": "Butterfly Bridge (mini banda)",
+            "note": "Glúteo / Isquiotibiales",
+            "seriesReps": "3-4 Series · 15-20 Repeticiones",
+            "image": null,
+            "wikiUrl": null,
+            "videos": [
+              {
+                "id": "p5N_fok9YCM",
+                "url": "https://www.youtube.com/shorts/p5N_fok9YCM"
+              },
+              {
+                "id": "5wFlzxseVG4",
+                "url": "https://www.youtube.com/shorts/5wFlzxseVG4"
+              }
+            ]
           },
           {
-            "id": "0fioI6ed8Eg",
-            "url": "https://youtube.com/shorts/0fioI6ed8Eg?si=eBZz9X3xe0xMf4ww"
+            "id": "bandas-piernas-abductor-pulses",
+            "name": "Abductor Pulses (mini banda)",
+            "note": "Glúteo medio / Cadera",
+            "seriesReps": "3-4 Series · 20-25 Repeticiones por lado",
+            "image": null,
+            "wikiUrl": null,
+            "videos": [
+              {
+                "id": "JXlqpNysSKg",
+                "url": "https://www.youtube.com/shorts/JXlqpNysSKg"
+              },
+              {
+                "id": "9UGzMsHINjo",
+                "url": "https://www.youtube.com/shorts/9UGzMsHINjo"
+              }
+            ]
           },
           {
-            "id": "iui51E31sX8",
-            "url": "https://youtube.com/shorts/iui51E31sX8?si=gWX2JFQsLIJPCqpv"
-          }
-        ]
-      },
-      {
-        "id": "bandas-cable-rope-pushdown",
-        "name": "Cable rope pushdown",
-        "note": "Tríceps",
-        "seriesReps": "3-4 Series · 10-12 Repeticiones",
-        "image": "assets/img/brazo-cable-rope-pushdown.jpeg",
-        "wikiUrl": "https://musclewiki.com/exercise/cable-rope-pushdown",
-        "videos": [
-          {
-            "id": "vB5OHsJ3EME",
-            "url": "https://www.youtube.com/watch?v=vB5OHsJ3EME&ab_channel=ScottHermanFitness"
+            "id": "bandas-piernas-machine-leg-press",
+            "name": "Machine leg press",
+            "note": "Glúteo / Cuádriceps",
+            "seriesReps": "3-4 Series · 10-12 Repeticiones",
+            "image": "assets/img/pierna-prensa-de-pierna-en-maquina-gluteos-y-cuadriceps.jpeg",
+            "wikiUrl": "https://musclewiki.com/exercise/machine-leg-press",
+            "videos": [
+              {
+                "id": "nDh_BlnLCGc",
+                "url": "https://www.youtube.com/shorts/nDh_BlnLCGc"
+              },
+              {
+                "id": "EotSw18oR9w",
+                "url": "https://www.youtube.com/shorts/EotSw18oR9w"
+              },
+              {
+                "id": "fpYaVKypytg",
+                "url": "https://www.youtube.com/shorts/fpYaVKypytg"
+              }
+            ]
           },
           {
-            "id": "EPn02tZL68U",
-            "url": "https://youtube.com/shorts/EPn02tZL68U?si=XkKWQ08X2-T7xDqd"
+            "id": "bandas-piernas-machine-leg-extension",
+            "name": "Machine leg extension",
+            "note": "Cuádriceps",
+            "seriesReps": "3-4 Series · 12-15 Repeticiones",
+            "image": null,
+            "wikiUrl": "https://musclewiki.com/exercise/machine-leg-extension",
+            "videos": []
           }
-        ]
-      },
-      {
-        "id": "bandas-band-squat",
-        "name": "Band Squat",
-        "note": "Cuádriceps / glúteo",
-        "seriesReps": "3-4 Series · 10-12 Repeticiones",
-        "image": null,
-        "wikiUrl": "https://musclewiki.com/exercise/band-squat",
-        "videos": [
+        ],
+        "espalda": [
           {
-            "id": "Eaqr79zvqIw",
-            "url": "https://www.youtube.com/watch?v=Eaqr79zvqIw"
-          }
-        ]
-      },
-      {
-        "id": "bandas-machine-leg-press",
-        "name": "Machine leg press",
-        "note": "Glúteo / pierna",
-        "seriesReps": "3-4 Series · 10-12 Repeticiones",
-        "image": "assets/img/pierna-prensa-de-pierna-en-maquina-gluteos-y-cuadriceps.jpeg",
-        "wikiUrl": "https://musclewiki.com/exercise/machine-leg-press",
-        "videos": [
-          {
-            "id": "nDh_BlnLCGc",
-            "url": "https://www.youtube.com/shorts/nDh_BlnLCGc"
+            "id": "bandas-espalda-robot-row",
+            "name": "Robot Row (mini banda)",
+            "note": "Espalda / Dorsales",
+            "seriesReps": "3-4 Series · 12-15 Repeticiones",
+            "image": null,
+            "wikiUrl": null,
+            "videos": [
+              {
+                "id": "_TMks2BseCw",
+                "url": "https://www.youtube.com/watch?v=_TMks2BseCw"
+              },
+              {
+                "id": "m2ewDg-bFjo",
+                "url": "https://www.youtube.com/shorts/m2ewDg-bFjo"
+              }
+            ]
           },
           {
-            "id": "EotSw18oR9w",
-            "url": "https://www.youtube.com/shorts/EotSw18oR9w"
+            "id": "bandas-espalda-lat-pull-down",
+            "name": "Lat Pull Down (mini banda)",
+            "note": "Dorsales",
+            "seriesReps": "3-4 Series · 15-20 Repeticiones",
+            "image": null,
+            "wikiUrl": null,
+            "videos": [
+              {
+                "id": "8in9M5xGUcY",
+                "url": "https://www.youtube.com/shorts/8in9M5xGUcY"
+              }
+            ]
           },
           {
-            "id": "fpYaVKypytg",
-            "url": "https://www.youtube.com/shorts/fpYaVKypytg"
-          }
-        ]
-      },
-      {
-        "id": "bandas-band-crunch",
-        "name": "Band Crunch",
-        "note": "Abdomen",
-        "seriesReps": "3-4 Series · 15-20 Repeticiones",
-        "image": null,
-        "wikiUrl": "https://musclewiki.com/exercise/band-crunch",
-        "videos": [
+            "id": "bandas-espalda-machine-seated-cable-row",
+            "name": "Machine seated cable row",
+            "note": "Espalda",
+            "seriesReps": "3-4 Series · 10-12 Repeticiones",
+            "image": "assets/img/espalda-remo-sentado-en-maquina-con-cable.png",
+            "wikiUrl": "https://musclewiki.com/exercise/machine-seated-cable-row",
+            "videos": [
+              {
+                "id": "vwHG9Jfu4sw",
+                "url": "https://www.youtube.com/watch?v=vwHG9Jfu4sw&ab_channel=MaxEuceda"
+              },
+              {
+                "id": "qD1WZ5pSuvk",
+                "url": "https://youtube.com/shorts/qD1WZ5pSuvk?si=0ScnOChPej38XrPF"
+              }
+            ]
+          },
           {
-            "id": "g3EVVCKsfmw",
-            "url": "https://www.youtube.com/watch?v=g3EVVCKsfmw"
+            "id": "bandas-espalda-machine-lat-pulldown",
+            "name": "Machine lat pulldown",
+            "note": "Dorsales",
+            "seriesReps": "3-4 Series · 10-12 Repeticiones",
+            "image": null,
+            "wikiUrl": "https://musclewiki.com/exercise/machine-pulldown",
+            "videos": []
+          }
+        ],
+        "hombro": [
+          {
+            "id": "bandas-hombro-straight-arm-pulses",
+            "name": "Straight Arm Pulses (mini banda)",
+            "note": "Hombro / Pecho",
+            "seriesReps": "3-4 Series · 20-25 Repeticiones",
+            "image": null,
+            "wikiUrl": null,
+            "videos": [
+              {
+                "id": "1hlgaBuudAo",
+                "url": "https://www.youtube.com/shorts/1hlgaBuudAo"
+              }
+            ]
+          },
+          {
+            "id": "bandas-hombro-back-squeeze",
+            "name": "Back Squeeze (mini banda)",
+            "note": "Espalda alta / Hombro",
+            "seriesReps": "3-4 Series · 15-20 Repeticiones",
+            "image": null,
+            "wikiUrl": null,
+            "videos": [
+              {
+                "id": "6xB0hVx0lNs",
+                "url": "https://www.youtube.com/shorts/6xB0hVx0lNs"
+              }
+            ]
+          },
+          {
+            "id": "bandas-hombro-machine-shoulder-press",
+            "name": "Machine shoulder press",
+            "note": "Hombro",
+            "seriesReps": "3-4 Series · 10-12 Repeticiones",
+            "image": null,
+            "wikiUrl": "https://musclewiki.com/exercise/machine-overhand-overhead-press",
+            "videos": []
+          },
+          {
+            "id": "bandas-hombro-machine-lateral-raise",
+            "name": "Machine lateral raise",
+            "note": "Hombro (deltoide lateral)",
+            "seriesReps": "3-4 Series · 12-15 Repeticiones",
+            "image": null,
+            "wikiUrl": "https://musclewiki.com/exercise/machine-standing-lateral-raise",
+            "videos": []
+          }
+        ],
+        "abdomen": [
+          {
+            "id": "bandas-abdomen-bicycle-crunch",
+            "name": "Bicycle Crunch (mini banda)",
+            "note": "Abdomen / Oblicuos",
+            "seriesReps": "3-4 Series · 20-25 Repeticiones",
+            "image": null,
+            "wikiUrl": null,
+            "videos": [
+              {
+                "id": "jOmaLWorAWY",
+                "url": "https://www.youtube.com/shorts/jOmaLWorAWY"
+              }
+            ]
+          },
+          {
+            "id": "bandas-abdomen-reverse-crunch",
+            "name": "Reverse Crunch (mini banda)",
+            "note": "Abdomen bajo",
+            "seriesReps": "3-4 Series · 15-20 Repeticiones",
+            "image": null,
+            "wikiUrl": "https://musclewiki.com/exercise/reverse-crunch",
+            "videos": [
+              {
+                "id": "k8eFLLkwYAg",
+                "url": "https://www.youtube.com/shorts/k8eFLLkwYAg"
+              }
+            ]
+          }
+        ],
+        "cuerpocompleto": [
+          {
+            "id": "bandas-cc-jumping-jacks",
+            "name": "Jumping Jacks (con banda)",
+            "note": "Cuerpo completo / Cardio",
+            "seriesReps": "3-4 Series · 30-40 Segundos",
+            "image": null,
+            "wikiUrl": null,
+            "videos": [
+              {
+                "id": "I2r5XxJzyeo",
+                "url": "https://www.youtube.com/shorts/I2r5XxJzyeo"
+              }
+            ]
+          },
+          {
+            "id": "bandas-cc-mountain-climber",
+            "name": "Mountain Climber (con banda)",
+            "note": "Cuerpo completo / Core",
+            "seriesReps": "3-4 Series · 30-40 Segundos",
+            "image": null,
+            "wikiUrl": null,
+            "videos": [
+              {
+                "id": "N395BRnTJOw",
+                "url": "https://www.youtube.com/shorts/N395BRnTJOw"
+              }
+            ]
+          },
+          {
+            "id": "bandas-cc-squat-leg-lift",
+            "name": "Squat and Leg Lift (mini banda)",
+            "note": "Glúteo / Equilibrio",
+            "seriesReps": "3-4 Series · 12-15 Repeticiones por lado",
+            "image": null,
+            "wikiUrl": null,
+            "videos": [
+              {
+                "id": "WAEsokPNncs",
+                "url": "https://www.youtube.com/shorts/WAEsokPNncs"
+              }
+            ]
+          },
+          {
+            "id": "bandas-cc-plank-toe-taps",
+            "name": "Plank Toe Taps (con banda)",
+            "note": "Core / Hombro",
+            "seriesReps": "3-4 Series · 20-30 Repeticiones",
+            "image": null,
+            "wikiUrl": null,
+            "videos": [
+              {
+                "id": "V4ZzQQCjBco",
+                "url": "https://www.youtube.com/shorts/V4ZzQQCjBco"
+              }
+            ]
+          },
+          {
+            "id": "bandas-cc-machine-assisted-pull-up",
+            "name": "Machine assisted pull up",
+            "note": "Dorsales / Cuerpo completo",
+            "seriesReps": "3-4 Series · 8-10 Repeticiones",
+            "image": null,
+            "wikiUrl": "https://musclewiki.com/exercise/machine-assisted-pull-up",
+            "videos": []
           }
         ]
       }
-    ]
+    }
   }
 };

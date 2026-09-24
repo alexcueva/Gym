@@ -30,6 +30,7 @@
     screen: "profile", // profile | category | routine
     profile: null,
     category: null,
+    tab: null,
   };
 
   const app = document.getElementById("app");
@@ -134,7 +135,7 @@
     document.getElementById("switch-profile")?.addEventListener("click", () => go("profile"));
     cats.forEach((c) => {
       document.getElementById(`cat-${c.key}`)?.addEventListener("click", () => {
-        go("routine", { category: c.key });
+        go("routine", { category: c.key, tab: null });
       });
     });
   }
@@ -155,7 +156,20 @@
   function renderRoutineScreen() {
     const profile = PROFILES[state.profile];
     const cat = DATA.categories.find((c) => c.key === state.category);
-    const exercises = DATA.exercises[state.category] || [];
+    const catData = DATA.exercises[state.category];
+    const isTabbed = !!(catData && !Array.isArray(catData) && Array.isArray(catData.tabs));
+
+    let tabs = [];
+    let exercises = [];
+    if (isTabbed) {
+      tabs = catData.tabs;
+      if (!state.tab || !tabs.some((t) => t.key === state.tab)) {
+        state.tab = tabs[0].key;
+      }
+      exercises = catData.byTab[state.tab] || [];
+    } else {
+      exercises = catData || [];
+    }
     setAccent(state.profile);
 
     app.innerHTML = `
@@ -167,6 +181,7 @@
         profileIcon: profile ? profile.icon : "🏋️",
         backTarget: "category",
       })}
+      ${isTabbed ? tabBarHtml(tabs, state.tab) : ""}
       <div class="routine-summary">
         <span class="pill">${cat ? cat.emoji : ""} ${exercises.length} ejercicios</span>
         <span>3-4 series por ejercicio</span>
@@ -185,6 +200,17 @@
     document.getElementById("back-btn")?.addEventListener("click", () => go("category"));
     document.getElementById("switch-cat")?.addEventListener("click", () => go("category"));
 
+    if (isTabbed) {
+      tabs.forEach((t) => {
+        document.getElementById(`tab-${t.key}`)?.addEventListener("click", () => {
+          if (state.tab === t.key) return;
+          state.tab = t.key;
+          render();
+          window.scrollTo({ top: 0, behavior: "instant" in window ? "instant" : "auto" });
+        });
+      });
+    }
+
     exercises.forEach((ex) => {
       const mainVideo = ex.videos && ex.videos[0];
       if (mainVideo) {
@@ -194,6 +220,16 @@
         document.getElementById(`extra-${ex.id}-${idx}`)?.addEventListener("click", () => openVideo(v.id));
       });
     });
+  }
+
+  function tabBarHtml(tabs, activeKey) {
+    return `
+      <div class="tab-bar">
+        ${tabs.map((t) => `
+          <button class="tab-btn ${t.key === activeKey ? "tab-btn--active" : ""}" id="tab-${t.key}">${esc(t.label)}</button>
+        `).join("")}
+      </div>
+    `;
   }
 
   function exerciseCardHtml(ex, i) {
